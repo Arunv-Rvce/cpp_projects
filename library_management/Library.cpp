@@ -17,8 +17,8 @@ using namespace std;
 #include "Library.h"
 
 
-map<int,Book> Library::s_bookMap;
-map<int,Customer> Library::s_customerMap;
+map<int, Book> Library::s_bookMap;
+map<int, Customer> Library::s_customerMap;
 
 string Library::s_binaryPath("Library.binary");
 
@@ -148,9 +148,6 @@ void Library::addBook(void) {
         return;
     }
 
-    cout << "Title: ";
-    cin >> title;
-
     Book book(author, title);
     s_bookMap[book.bookId()] = book;
     cout << endl << "Added: " << book << endl;
@@ -202,7 +199,7 @@ void Library::addCustomer(void) {
 
     Customer customer(name, address);
     s_customerMap[customer.id()] = customer;
-    cout << endl << "Added." << endl;
+    cout << endl << "Added." << customer << endl;
 }
 
 void Library::deleteCustomer(void) {

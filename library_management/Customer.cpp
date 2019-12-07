@@ -121,4 +121,5 @@ ostream& operator<<(ostream& outStream, const Customer& customer) {
             first = false;
         }
     }
+    return outStream;
 }

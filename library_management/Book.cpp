@@ -106,4 +106,5 @@ ostream& operator<<(ostream& outStream, const Book& book) {
 
         outStream << ".";
     }
+    return outStream;
 }
