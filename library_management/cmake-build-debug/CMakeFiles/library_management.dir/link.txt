@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/library_management.dir/main.cpp.o CMakeFiles/library_management.dir/Book.cpp.o CMakeFiles/library_management.dir/Library.cpp.o CMakeFiles/library_management.dir/Customer.cpp.o  -o library_management 
