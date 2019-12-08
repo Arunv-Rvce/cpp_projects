@@ -1,8 +1,4 @@
-#include <set>
-#include <map>
-#include <list>
 #include <string>
-#include <fstream>
 #include <iostream>
 using namespace std;
 
