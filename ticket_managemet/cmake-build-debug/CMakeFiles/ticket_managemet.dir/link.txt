@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ticket_managemet.dir/main.cpp.o CMakeFiles/ticket_managemet.dir/Ticket.cpp.o CMakeFiles/ticket_managemet.dir/SqliteService.cpp.o  -o ticket_managemet 
